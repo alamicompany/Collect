@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/bottombaritem_camera"
+        android:icon="@drawable/ic_camera_white"
+        android:title="@string/camera"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/bottombaritem_today"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/today"
+        app:showAsAction="ifRoom"
+
+       />
+
+    <item
+        android:id="@+id/bottombaritem_calendar"
+        android:icon="@drawable/ic_today"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom"
+       />
+
+
+
+
+    <item
+        android:id="@+id/bottombaritem_project"
+        android:icon="@drawable/ic_project_bottom"
+        android:title="@string/project"
+        />
+
+    <item
+        android:id="@+id/bottombaritem_favorit"
+        android:icon="@drawable/ic_favorit_bottom_white"
+        android:title="@string/favorit"
+        />
+</menu>
+
+
+

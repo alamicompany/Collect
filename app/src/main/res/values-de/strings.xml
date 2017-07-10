@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_text">Anmelden</string>
+    <string name="action_logout">Abmelden</string>
+    <string name="login_signup_here">Kein Konto? Registriere dich hier</string>
+    <string name="signup_signin_here">Bereits registriert? Melde dich hier an</string>
+    <string name="forgot_password">Passwort vergessen</string>
+    <string name="forget_password_text">Bitte geben Sie Ihre E-Mail-Adresse an. Sie erhalten dann eine E-Mail mit weiteren Informationen das Passwort zurückzusetzen. </string>
+    <string name="signup_register">Registrieren</string>
+    <string name="signup_password">Passwort</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="are_you_sure">Sind Sie sicher?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="invitation_title">CollectApp einladen</string>
+    <string name="invitation_message">Praktische App um Ihre Fotos zu verwalten</string>
+    <string name="invitation_cta">Installieren</string>
+    <string name="login_enter_email">Email eingeben</string>
+    <string name="login_enter_password">Passwort eingeben</string>
+    <string name="today">Heute</string>
+    <string name="calendar">Kalender</string>
+    <string name="project">Project</string>
+    <string-array name="list_actions">
+        <item>bearbeiten</item>
+        <item>löschen</item>
+        <item>Stornieren</item>
+    </string-array>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

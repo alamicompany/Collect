@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "50570481478",
+    "firebase_url": "https://collect-43683.firebaseio.com",
+    "project_id": "collect-43683",
+    "storage_bucket": "collect-43683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50570481478:android:096a051fa750e6c9",
+        "android_client_info": {
+          "package_name": "com.alamicompany.collect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50570481478-95qufrvu0hja3ke2v903jirflsqhhv7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alamicompany.collect",
+            "certificate_hash": "b4d083528be798b25652ed28c1c461191f7400b0"
+          }
+        },
+        {
+          "client_id": "50570481478-nsvmt3negfii77q3tj0tsq5gro6rgh2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5kR_j2hSfdSKdtZBpMYvvhJgAPasHxfs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50570481478-nsvmt3negfii77q3tj0tsq5gro6rgh2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

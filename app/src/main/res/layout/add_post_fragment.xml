@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="12dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imagePost"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_name_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorEnabled="true"
+        android:layout_below="@+id/imagePost"
+        >
+    <EditText
+        android:id="@+id/namePost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:theme="@style/MyEditText"
+        android:textColor="@color/colorPrimary"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_description_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorEnabled="true"
+        android:layout_below="@+id/layout_name_post"
+        >
+    <EditText
+        android:id="@+id/descriptionPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tag"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorPrimary"
+        android:theme="@style/MyEditText"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_note_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:errorTextAppearance="@style/MyErrorText"
+        app:errorEnabled="true"
+        android:layout_below="@+id/layout_description_post"
+        >
+        <EditText
+            android:id="@+id/post_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/MyEditText"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/uploadPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/save" />
+
+    <ProgressBar
+        android:id="@+id/progressUpload"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"/>
+</RelativeLayout>
+</android.support.v7.widget.CardView>
+

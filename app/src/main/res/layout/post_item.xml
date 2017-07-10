@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:elevation="2dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="10dp"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/post_list_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_alignParentEnd="true"
+                android:text="@string/take_action"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/post_list_action"
+                >
+            <ImageView
+                android:id="@+id/post_photo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+               />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4b454343"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/post_name"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:text="@string/post"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:maxLines="1"
+                    android:ellipsize="marquee"/>
+
+                <TextView
+                    android:id="@+id/post_description"
+                    android:layout_width="100dp"
+                    android:layout_height="0dp"
+                    android:text="@string/description"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:maxLines="1"
+                    android:ellipsize="marquee"
+                    />
+
+
+            </LinearLayout>
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>

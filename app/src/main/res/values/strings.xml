@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Collect</string>
+    <string name="menu_tellfriend">Tell a friend</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_project">ProjectActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slogan">" Slogan ... "</string>
+    <string name="menu_help">Help</string>
+    <string name="invitation_title">CollectApp Invite</string>
+    <string name="invitation_message">usefull app to manage your photos</string>
+    <string name="invitation_deep_link">https://collect.alami-company.com/</string>
+    <string name="invitation_cta">Install</string>
+    <string name="invitation_custom_image"> </string>
+    <string name="login_text">Login</string>
+    <string name="login_enter_email">Enter Email</string>
+    <string name="login_enter_password">Enter Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_signup_here">Not have an account? Signup Here</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="logo_content_Description">Logo</string>
+    <string name="signup_register">Register</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_register_button">Register</string>
+    <string name="signup_signin_here">Already Registered? Signin Here</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forget_password_text">We just need your registered Email id To sent you password reset instruction</string>
+    <string name="email">Email...</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="profilephoto">profilePhoto</string>
+    <string name="profile_page_name">Name</string>
+    <string name="profile_page_slogan">Slogan...</string>
+    <string name="name">Name</string>
+    <string name="tag">#Tag</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="title">Update Project</string>
+    <string name="new_project_name">New Project Name</string>
+    <string name="ok">OK</string>
+    <string name="take_action">...</string>
+    <string name="post">Post</string>
+    <string name="project_name">Project Name</string>
+    <string name="camera">Camera</string>
+    <string name="today">Today</string>
+    <string name="calendar">Calendar</string>
+    <string name="project">Project</string>
+    <string name="favorit">Favorit</string>
+    <string name="title_post">Update Post</string>
+
+    <string-array name="list_actions">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

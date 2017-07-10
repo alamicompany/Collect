@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.alamicompany.collect.SignUpActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+    android:paddingEnd="@dimen/Layout_padding"
+    android:paddingStart="@dimen/Layout_padding"
+    android:paddingTop="@dimen/Layout_padding_top">
+
+        <ImageView
+            android:id="@+id/signProfileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:contentDescription="@string/logo_content_Description"/>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="@string/signup_register"
+            android:textStyle="bold"
+            android:textSize="36sp"/>
+
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_element_margin_top"
+                app:errorTextAppearance="@style/MyErrorText"
+                app:errorEnabled="true">
+            <EditText
+                android:id="@+id/signName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/signup_name"
+                android:inputType="textPersonName"
+                android:theme="@style/MyEditText"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_element_margin_top"
+                app:errorTextAppearance="@style/MyErrorText"
+                app:errorEnabled="true"
+                tools:ignore="ExtraText">
+
+            <EditText
+                android:id="@+id/signEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/signup_email"
+                android:inputType="textEmailAddress"
+                android:theme="@style/MyEditText"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_element_margin_top"
+                app:errorTextAppearance="@style/MyErrorText"
+                app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/signPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/signup_password"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditText"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/signButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_register_button"
+            style="@style/login_button"/>
+        <TextView
+            android:text="@string/signup_signin_here"
+            android:id="@+id/signupText"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/login_element_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/login_text_size"
+            />
+    </LinearLayout>

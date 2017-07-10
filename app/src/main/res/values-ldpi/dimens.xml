@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Button_height">80dp</dimen>
+    <dimen name="Layout_padding_top">10dp</dimen>
+    <dimen name="login_element_margin_top">0dp</dimen>
+    <dimen name="login_text_size">10sp</dimen>
+
+
+
+
+</resources>
