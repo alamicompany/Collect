@@ -21,11 +21,14 @@ public class LoadAsyncData extends AsyncTask {
     @Override
     protected Object doInBackground(Object[] params) {
 
-
+        try {
             main.getPostTags();
             main.getUserInfo();
             main.getPostPhotos();
-
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         return  params;
